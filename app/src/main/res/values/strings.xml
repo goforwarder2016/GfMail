@@ -1,0 +1,739 @@
+<resources>
+    <string name="app_name">Gfmail</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="create">Create</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="confirmation">Confirmation</string>
+    
+    <!-- Navigation -->
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_sent">Sent</string>
+    <string name="nav_drafts">Drafts</string>
+    <string name="nav_starred">Starred</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_accounts">Accounts</string>
+    <string name="nav_compose">Compose</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_mail">Mail</string>
+    <string name="nav_add_account">Add Account</string>
+    <string name="no_account_active">No Account Active</string>
+    <string name="no_account_active_subtitle">Add an email account to start using Gfmail</string>
+    <string name="no_accounts">No Accounts</string>
+    <string name="no_accounts_subtitle">Add an email account to get started</string>
+    <string name="accounts_count">Accounts (%1$d/%2$d)</string>
+    <string name="max_accounts_reached">Maximum accounts reached</string>
+    <string name="can_add_more_accounts">You can add %1$d more account%2$s</string>
+    <string name="qr_code_display">QR Code</string>
+    <string name="folder_management">Manage Folders</string>
+    <string name="performance_settings">Performance Settings</string>
+    <string name="security_settings">Security Settings</string>
+    
+    <!-- Email -->
+    <string name="email_from">From</string>
+    <string name="email_to">To</string>
+    <string name="email_cc">CC</string>
+    <string name="email_bcc">BCC</string>
+    <string name="email_subject">Subject</string>
+    <string name="email_content">Message</string>
+    <string name="email_attachment">Attachment</string>
+    <string name="email_attachments">Attachments</string>
+    <string name="email_send">Send</string>
+    <string name="email_reply">Reply</string>
+    <string name="email_reply_all">Reply All</string>
+    <string name="reply">Reply</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="no_email_content">No email content</string>
+    <string name="current">Current</string>
+    <string name="set_as_current">Set as Current</string>
+    <string name="show_qr_code">Show QR Code</string>
+    <string name="tencent_enterprise_email">Tencent Enterprise Email</string>
+    <string name="other_email">Other Email</string>
+    <string name="other">Other</string>
+    <string name="display_name">Display Name</string>
+    <string name="app_specific_password">App-specific Password</string>
+    <string name="netease_email_password">NetEase Email Password</string>
+    <string name="password">Password</string>
+    <string name="enter_netease_email_password">Enter NetEase Email Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="port">Port</string>
+    <string name="more">More</string>
+    <string name="compose_email">Compose Email</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="netease_email">NetEase Email</string>
+    <string name="no_matching_emails">No matching emails</string>
+    <string name="try_different_keywords">Try different keywords</string>
+    <string name="search_your_emails">Search your emails</string>
+    <string name="enter_keywords_to_search">Enter keywords to search emails</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="project">Project</string>
+    <string name="meeting">Meeting</string>
+    <string name="report">Report</string>
+    <string name="just_now">Just now</string>
+    <string name="send_email">Send Email</string>
+    <string name="netease_email_requires_password">NetEase email requires password to send emails</string>
+    <string name="password_required_to_send">Password required to send emails</string>
+    <string name="netease_smtp_notice">Note: NetEase email requires SMTP service to be enabled and correct password.</string>
+    <string name="connection_timeout_netease">Connection timeout. Possible causes:\n1. Network connection issues\n2. NetEase email SMTP service not enabled\n3. Please check network settings and firewall</string>
+    <string name="auth_failed_netease">Authentication failed. NetEase email requires:\n1. Enable SMTP service\n2. Use correct email password\n3. Check email security settings</string>
+    <string name="email">Email</string>
+    <string name="email_password">Email Password</string>
+    <string name="netease_email_address">NetEase Email Address</string>
+    <string name="netease_email_example">yourname@163.com</string>
+    <string name="email_forward">Forward</string>
+    <string name="email_archive">Archive</string>
+    <string name="email_unread">Mark as Unread</string>
+    <string name="email_read">Mark as Read</string>
+    <string name="email_star">Star</string>
+    <string name="email_unstar">Remove Star</string>
+    <string name="email_move">Move</string>
+    <string name="email_copy">Copy</string>
+    <string name="email_draft_saved">Draft saved</string>
+    <string name="email_sent_successfully">Email sent successfully</string>
+    
+    <!-- Accounts -->
+    <string name="account_add">Add Account</string>
+    <string name="account_email">Email Address</string>
+    <string name="account_password">Password</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_provider">Email Provider</string>
+    <string name="account_gmail">Gmail</string>
+    <string name="account_exchange">Exchange</string>
+    <string name="account_manual">Manual Setup</string>
+    <string name="account_imap_server">IMAP Server</string>
+    <string name="account_smtp_server">SMTP Server</string>
+    <string name="account_port">Port</string>
+    <string name="account_security">Security</string>
+    <string name="account_oauth_login">Sign in with OAuth</string>
+    <string name="account_test_connection">Test Connection</string>
+    <string name="account_connection_success">Connection successful</string>
+    <string name="account_connection_failed">Connection failed</string>
+    <string name="account_limit_reached">Maximum of 3 accounts allowed</string>
+    <string name="account_qr_code_title">Account QR Code</string>
+    <string name="account_qr_code_subtitle">Share this QR code to set up account on another device</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search emails…</string>
+    <string name="search_no_results">No results found</string>
+    <string name="search_suggestions">Suggestions</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_clear_history">Clear search history</string>
+    <string name="search_in_folder">Search in folder</string>
+    <string name="search_all_accounts">All accounts</string>
+    
+    <!-- Folders -->
+    <string name="folder_inbox">Inbox</string>
+    <string name="folder_sent">Sent</string>
+    <string name="folder_drafts">Drafts</string>
+    <string name="folder_trash">Trash</string>
+    <string name="folder_spam">Spam</string>
+    <string name="folder_archive">Archive</string>
+    <string name="folder_custom">Custom Folder</string>
+    <string name="folder_create">Create Folder</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="folder_delete_confirm">Delete this folder and all its emails?</string>
+    
+    <!-- Folder Name Mappings for IMAP (English) -->
+    <string name="folder_mapping_inbox">Inbox</string>
+    <string name="folder_mapping_sent">Sent</string>
+    <string name="folder_mapping_drafts">Drafts</string>
+    <string name="folder_mapping_trash">Trash</string>
+    <string name="folder_mapping_spam">Spam</string>
+    <string name="folder_mapping_archive">Archive</string>
+    <string name="folder_mapping_starred">Starred</string>
+    
+    <!-- NetEase-specific folder names -->
+    <string name="netease_folder_sent">Sent</string>
+    <string name="netease_folder_drafts">Drafts</string>
+    <string name="netease_folder_trash">Trash</string>
+    <string name="netease_folder_spam">Spam</string>
+    
+    <!-- Error messages -->
+    <string name="error_connection_timeout">Connection timeout. Please check your network connection and try again.</string>
+    <string name="error_authentication_failed">Authentication failed. Please check your email and password.</string>
+    <string name="error_netease_connection_failed">NetEase email connection failed. Please check the following settings:</string>
+    <string name="error_qq_connection_failed">QQ email connection failed. Please check the following settings:</string>
+    <string name="error_gmail_connection_failed">Gmail connection failed. Please check your app password.</string>
+    <string name="error_exchange_connection_failed">Exchange/Outlook connection failed. Please check your credentials.</string>
+    <string name="error_password_too_weak">Password is too weak. Please use a more secure password.</string>
+    <string name="error_password_length_insufficient">Password length must be at least %d characters.</string>
+    <string name="error_invalid_password_format">Invalid password format. Please check the requirements.</string>
+    
+    <!-- Connection test messages -->
+    <string name="connection_test_success">Connection successful</string>
+    <string name="connection_test_failed">Connection failed</string>
+    <string name="connection_test_timeout">Connection timeout</string>
+    <string name="connection_test_auth_failed">Authentication failed</string>
+    
+    <!-- Account management -->
+    <string name="account_sync_enabled">Sync enabled</string>
+    <string name="account_sync_disabled">Sync disabled</string>
+    <string name="account_pause_sync">Pause Sync</string>
+    <string name="account_enable_sync">Enable Sync</string>
+    <string name="account_delete">Delete Account</string>
+    <string name="account_add_title">Add Account</string>
+    <string name="account_current">Current</string>
+    <string name="account_select_sender">Select Sender Account</string>
+    <string name="account_select_sender_description">Choose the account to use for sending emails:</string>
+    <string name="account_sending_from">Sending from: %s</string>
+    <string name="account_provider_label">Provider: %s</string>
+    
+    <!-- Add Account Screen -->
+    <string name="choose_email_provider">Choose your email provider</string>
+    <string name="select_email_service_provider">Select your email service provider to get started</string>
+    <string name="custom_email_provider">Custom email provider</string>
+    <string name="enter_email_address">Enter your email address</string>
+    <string name="email_address_label">Email Address</string>
+    <string name="continue_button">Continue</string>
+    <string name="secure_authentication">Secure Authentication</string>
+    <string name="enter_your_password">Enter your password</string>
+    
+    <!-- Email provider names -->
+    <string name="provider_gmail">Gmail</string>
+    <string name="provider_qq_email">QQ Email</string>
+    <string name="provider_netease_email">NetEase Email</string>
+    <string name="provider_163_email">163</string>
+    <string name="provider_126_email">126</string>
+    <string name="provider_exchange">Exchange</string>
+    <string name="provider_imap">IMAP</string>
+    
+    <!-- Password requirements -->
+    <string name="password_requirement_gmail">Please enter 16-character app-specific password</string>
+    <string name="password_requirement_exchange">Password must be at least 8 characters</string>
+    <string name="password_requirement_netease">Password must be at least 6 characters</string>
+    <string name="password_requirement_qq">Password must be at least 6 characters</string>
+    <string name="password_requirement_generic">Password must be at least 8 characters</string>
+    
+    <!-- Detailed error messages -->
+    <string name="error_netease_detailed">NetEase email connection failed. Please check the following settings:\n\n🔐 NetEase email authentication:\n1. Use NetEase email login password:\n   - Use your NetEase email login password directly\n   - Ensure the password is correct\n\n2. Use authorization code (recommended):\n   - Login to NetEase email web version\n   - Settings → POP3/SMTP/IMAP → Enable IMAP/SMTP service\n   - Generate authorization code and use it as password\n\n3. Server configuration:\n   - IMAP server: imap.163.com:993 (SSL)\n   - SMTP server: smtp.163.com:465 (SSL)\n\n💡 If login password fails, try using authorization code</string>
+    
+    <string name="error_qq_detailed">QQ email connection failed. Please check the following settings:\n\n🔐 QQ email authentication:\n1. Use QQ email login password:\n   - Use your QQ email login password directly\n   - Ensure the password is correct\n\n2. Use authorization code (recommended):\n   - Login to QQ email web version\n   - Settings → Account → Enable IMAP/SMTP service\n   - Generate authorization code and use it as password\n\n3. Server configuration:\n   - IMAP server: imap.qq.com:993 (SSL)\n   - SMTP server: smtp.qq.com:587 (STARTTLS)\n\n💡 If login password fails, try using authorization code</string>
+    
+    <string name="error_gmail_detailed">Gmail connection failed. Please check the following settings:\n\n🔐 Gmail authentication:\n1. Visit myaccount.google.com/apppasswords\n2. Generate new App Password\n3. Use App Password instead of regular password</string>
+    
+    <string name="error_exchange_detailed">Exchange/Outlook connection failed. Please check your credentials and server settings.</string>
+    
+    <!-- Connection test error messages -->
+    <string name="error_qq_connection_detailed">QQ email connection failed. Please check the following settings:\n\n🔐 QQ email authentication:\n1. Use QQ email login password:\n   - Use your QQ email login password directly\n   - Ensure the password is correct\n\n2. Use authorization code (recommended):\n   - Login to QQ email web version\n   - Settings → Account → Enable IMAP/SMTP service\n   - Generate authorization code and use it as password\n\n3. Server configuration:\n   - IMAP server: imap.qq.com:993 (SSL)\n   - SMTP server: smtp.qq.com:587 (STARTTLS)\n\n4. Network connection:\n   - Ensure network connection is normal\n   - Avoid frequent login\n\n💡 If login password fails, try using authorization code</string>
+    
+    <string name="error_netease_connection_detailed">NetEase email connection failed. Please check the following settings:\n\n🔐 NetEase email authentication:\n1. Use NetEase email login password:\n   - Use your NetEase email login password directly\n   - Ensure the password is correct\n\n2. Use authorization code (recommended):\n   - Login to NetEase email web version\n   - Settings → POP3/SMTP/IMAP → Enable IMAP/SMTP service\n   - Generate authorization code and use it as password\n\n3. Server configuration:\n   - IMAP server: imap.163.com:993 (SSL)\n   - SMTP server: smtp.163.com:465 (SSL)\n\n4. Security settings:\n   - Ensure third-party client login is allowed\n   - Check account security status\n\n💡 If login password fails, try using authorization code</string>
+    
+    <string name="error_password_length_generic">Password length must be at least %d characters</string>
+    <string name="error_password_length_pop3">POP3 password length must be at least %d characters</string>
+    <string name="error_imap_connection_failed">IMAP server connection failed. Please check email address and password</string>
+    <string name="error_pop3_connection_failed">POP3 server connection failed. Please check email address and password</string>
+    
+    <!-- Connection timeout messages -->
+    <string name="error_connection_timeout_gmail">Connection timeout. Possible causes:\n1. Network connection issue\n2. Need to use Gmail App Password\n3. Please check network settings and firewall</string>
+    <string name="error_connection_timeout_qq">Connection timeout. Possible causes:\n1. Network connection issue\n2. QQ email SMTP service not enabled\n3. Please check network settings and firewall</string>
+    <string name="error_connection_timeout_generic">Connection timeout. Possible causes:\n1. Network connection issue\n2. SMTP service not enabled\n3. Please check network settings and firewall</string>
+    
+    <!-- Authentication failed messages -->
+    <string name="error_auth_failed_gmail">Authentication failed. Gmail requires App Password:\n1. Visit myaccount.google.com/apppasswords\n2. Generate new App Password\n3. Use App Password instead of regular password</string>
+    <string name="error_auth_failed_qq">QQ email authentication failed!\n\nPlease follow these steps:\n1. Login to QQ email web version\n2. Settings → Account → Enable SMTP service\n3. Get authorization code (not QQ password)\n4. Re-enter authorization code in the app\n\nClick OK to re-enter password</string>
+    <string name="error_auth_failed_generic">Authentication failed. Please check:\n1. Whether email password is correct\n2. Whether SMTP service is enabled\n3. Email security settings</string>
+    
+    <!-- Connection failed messages -->
+    <string name="error_connection_failed_template">Connection failed: %s\n\nPlease check:\n1. Network connection\n2. %s SMTP settings\n3. Account security settings</string>
+    
+    <!-- Account management -->
+    <string name="account_sending_from_template">Sending Account: %s</string>
+    <string name="account_provider_template">Provider: %s</string>
+    <string name="account_select_sender_title">Select Sender Account</string>
+    <string name="account_current_indicator">(Current)</string>
+    
+    <!-- Email provider specific messages -->
+    <string name="dialog_title_gmail_password">Gmail App Password Required</string>
+    <string name="dialog_title_qq_password">QQ Email Password</string>
+    <string name="dialog_title_outlook_password">Outlook Password</string>
+    
+    <string name="dialog_text_gmail_password">Gmail requires an App Password for third-party applications.\n\nSteps to generate App Password:\n1. Go to myaccount.google.com/apppasswords\n2. Generate a new App Password\n3. Enter your details below:</string>
+    <string name="dialog_text_qq_password">QQ email requires password to send emails.\n\nPlease ensure:\n1. QQ email SMTP service is enabled\n2. Use correct QQ email password\n3. Enter the following information:</string>
+    <string name="dialog_text_outlook_password">Outlook requires password to send emails.\n\nPlease ensure:\n1. Outlook SMTP service is enabled\n2. Use correct email password\n3. Enter the following information:</string>
+    <string name="dialog_text_generic_password">Email requires password to send emails.\n\nPlease ensure:\n1. Email SMTP service is enabled\n2. Use correct email password\n3. Enter the following information:</string>
+    
+    <string name="email_label_gmail">Gmail Address</string>
+    <string name="email_label_qq">QQ Email Address</string>
+    <string name="email_label_outlook">Outlook Email Address</string>
+    <string name="email_label_generic">Email Address</string>
+    
+    <string name="email_placeholder_gmail">yourname@gmail.com</string>
+    <string name="email_placeholder_qq">yourname@qq.com</string>
+    <string name="email_placeholder_outlook">yourname@outlook.com</string>
+    <string name="email_placeholder_generic">yourname@example.com</string>
+    
+    <string name="password_label_gmail">App Password</string>
+    <string name="password_label_qq">QQ Email Password</string>
+    <string name="password_label_outlook">Outlook Password</string>
+    <string name="password_label_generic">Email Password</string>
+    
+    <string name="password_placeholder_gmail">Enter 16-character App Password</string>
+    <string name="password_placeholder_qq">Enter QQ email password</string>
+    <string name="password_placeholder_outlook">Enter Outlook password</string>
+    <string name="password_placeholder_generic">Enter email password</string>
+    
+    <!-- Add Account Screen -->
+    <string name="select_email_provider_description">Select your email service provider to get started</string>
+    <string name="or_choose_manual_entry">Or choose manual entry:</string>
+    <string name="gmail_subtitle">Google\'s email service</string>
+    <string name="gmail_auth_method">OAuth2 (Recommended)</string>
+    <string name="custom_email_provider_subtitle">Custom email provider</string>
+    <string name="enter_email_address_label">Enter your email address</string>
+    <string name="enter_password_label">Enter your password</string>
+    <string name="password_label">Password</string>
+    <string name="app_password_label">App Password</string>
+    
+    <!-- NetEase specific error messages -->
+    <string name="netease_security_policy_restriction">NetEase email security policy restriction\n\nPlease follow these steps:\n1. Login to 163/126/188 email web version\n2. Go to Settings → POP3/SMTP/IMAP\n3. Enable client authorization code feature\n4. Use generated 16-digit authorization code as password\n5. Ensure using port 993+SSL connection</string>
+    
+    <string name="netease_folder_access_restriction">NetEase email folder access restriction\n\nThis folder is restricted by NetEase email security policy:\n• Drafts, Sent folders may require special permissions\n• This is NetEase email security policy, doesn\'t affect inbox sync\n• For full functionality, contact NetEase customer service: kefu@188.com</string>
+    
+    <string name="netease_authentication_failed">Authentication failed\n\nPlease check:\n1. Whether using client authorization code (not login password)\n2. Whether client authorization code is valid\n3. Whether IMAP/SMTP service is enabled\n4. Whether using correct connection settings (port 993+SSL)</string>
+    
+    <string name="netease_connection_timeout">Connection timeout\n\nPossible reasons:\n1. Network connection issue\n2. Need to use client authorization code\n3. Please check network settings and firewall</string>
+    
+    <string name="netease_connection_failed_template">Connection failed: %s\n\nPlease check network connection and account settings</string>
+    
+    <!-- Manual Server Configuration -->
+    <string name="sign_in">Sign In</string>
+    <string name="manual_server_configuration">Manual Server Configuration</string>
+    <string name="imap_server">IMAP Server</string>
+    <string name="smtp_server">SMTP Server</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="add_account">Add Account</string>
+    
+    <!-- QR Code Display -->
+    <string name="display_qr_code">Display QR Code</string>
+    <string name="show_qr_code_description">Show QR code for others to scan</string>
+    <string name="share_setup">Share Setup</string>
+    <string name="generate_qr_code_title">Generate QR Code for Account Setup</string>
+    <string name="generate_qr_code_description">Configure your account details and generate a QR code for easy setup on other devices</string>
+    <string name="account_configuration">Account Configuration</string>
+    
+    <!-- Account types -->
+    <string name="account_qq">QQ Email</string>
+    
+    <!-- Settings -->
+    <string name="sync_settings">Sync Settings</string>
+    
+    <!-- QR Code additional strings -->
+    <string name="how_to_use_qr_code">How to use this QR code</string>
+    <string name="manual_setup">Manual Setup</string>
+    <string name="share">Share</string>
+    <string name="outlook">Outlook</string>
+    
+    <!-- Batch Operations -->
+    <string name="batch_select_all">Select All</string>
+    <string name="batch_deselect_all">Deselect All</string>
+    <string name="batch_selected">%d selected</string>
+    <string name="batch_mark_read">Mark as Read</string>
+    <string name="batch_mark_unread">Mark as Unread</string>
+    <string name="batch_archive">Archive</string>
+    <string name="batch_delete">Delete</string>
+    <string name="batch_star">Star</string>
+    <string name="batch_unstar">Remove Star</string>
+    <string name="batch_move_to">Move to</string>
+    <string name="batch_operation_progress">Processing %1$d of %2$d emails…</string>
+    <string name="batch_operation_complete">Operation completed successfully</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_accounts">Accounts</string>
+    <string name="settings_email">Email</string>
+    <string name="settings_display">Display</string>
+    <string name="settings_storage">Storage</string>
+    <string name="settings_data_management">Data Management</string>
+    <string name="settings_about">About</string>
+    
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_manage_accounts">Manage Accounts</string>
+    <string name="settings_server_settings">Server Settings</string>
+    <string name="settings_email_signatures">Email Signatures</string>
+    <string name="settings_sync_settings">Sync Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_background_sync">Background Sync</string>
+    <string name="settings_biometric_auth">Biometric Authentication</string>
+    <string name="settings_auto_lock">Auto Lock</string>
+    <string name="settings_cache_size">Cache Size</string>
+    <string name="settings_clear_cache">Clear Cache</string>
+    <string name="settings_optimize_storage">Optimize Storage</string>
+    <string name="settings_export_settings">Export Settings</string>
+    <string name="settings_import_settings">Import Settings</string>
+    <string name="settings_app_version">App Version</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    
+    <!-- Theme -->
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    
+    <!-- Language -->
+    <string name="language_system">System Default</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese_simplified">简体中文</string>
+    <string name="language_chinese_traditional">繁體中文</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    
+    <!-- Signatures -->
+    <string name="signature_management">Email Signatures</string>
+    <string name="signature_create">Create Signature</string>
+    <string name="signature_name">Signature Name</string>
+    <string name="signature_content">Signature Content</string>
+    <string name="signature_type_text">Text</string>
+    <string name="signature_type_handwriting">Handwriting</string>
+    <string name="signature_html_formatting">Use HTML formatting</string>
+    <string name="signature_set_default">Set as default signature</string>
+    <string name="signature_default">Default</string>
+    <string name="signature_duplicate">Duplicate</string>
+    <string name="signature_no_signatures">No Signatures</string>
+    <string name="signature_create_first">Create your first email signature to personalize your messages</string>
+    <string name="signature_global">Global signature</string>
+    <string name="signature_account_specific">Account-specific signature</string>
+    <string name="signature_handwriting_tap">Tap to draw signature</string>
+    <string name="signature_handwriting_size">Handwriting signature (%1$dx%2$d)</string>
+    <string name="signature_handwriting_edit_note">Handwriting signatures can only have their name changed. To modify the signature content, create a new handwriting signature.</string>
+    
+    <!-- Sync & Notifications -->
+    <string name="sync_title">Sync Settings</string>
+    <string name="sync_background_sync">Background Sync</string>
+    <string name="sync_sync_frequency">Sync Frequency</string>
+    <string name="sync_wifi_only">WiFi Only</string>
+    <string name="sync_battery_optimization">Battery Optimization</string>
+    <string name="sync_quiet_hours">Quiet Hours</string>
+    <string name="sync_notification_categories">Notification Categories</string>
+    <string name="sync_new_email_notifications">New Email Notifications</string>
+    <string name="sync_sync_status_notifications">Sync Status Notifications</string>
+    <string name="sync_account_issue_notifications">Account Issue Notifications</string>
+    <string name="sync_notification_sound">Notification Sound</string>
+    <string name="sync_notification_vibration">Notification Vibration</string>
+    <string name="sync_notification_led">Notification LED</string>
+    <string name="sync_permission_required">Notification permission required</string>
+    <string name="sync_grant_permission">Grant Permission</string>
+    <string name="sync_frequency_15min">Every 15 minutes</string>
+    <string name="sync_frequency_30min">Every 30 minutes</string>
+    <string name="sync_frequency_1hour">Every hour</string>
+    <string name="sync_frequency_manual">Manual only</string>
+    <string name="sync_last_sync">Last sync: %s</string>
+    <string name="sync_never">Never</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_email">New email</string>
+    <string name="notification_new_emails">%d new emails</string>
+    <string name="notification_sync_complete">Sync completed</string>
+    <string name="notification_sync_failed">Sync failed</string>
+    <string name="notification_account_issue">Account issue</string>
+    <string name="notification_action_mark_read">Mark Read</string>
+    <string name="notification_action_reply">Reply</string>
+    <string name="notification_action_archive">Archive</string>
+    
+    <!-- Attachments -->
+    <string name="attachment_add">Add Attachment</string>
+    <string name="attachment_remove">Remove Attachment</string>
+    <string name="attachment_size_limit">Attachment size limit: 20MB</string>
+    <string name="attachment_size_exceeded">Attachment exceeds 20MB limit</string>
+    <string name="attachment_select_file">Select File</string>
+    <string name="attachment_camera">Take Photo</string>
+    <string name="attachment_gallery">Choose from Gallery</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network connection error</string>
+    <string name="error_authentication">Authentication failed</string>
+    <string name="error_server">Server error</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_email_send_failed">Failed to send email</string>
+    <string name="error_attachment_failed">Failed to attach file</string>
+    <string name="error_sync_failed">Sync failed</string>
+    <string name="error_account_add_failed">Failed to add account</string>
+    <string name="error_unknown">Unknown error occurred</string>
+    
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_back_button">Back button</string>
+    <string name="cd_compose_email">Compose new email</string>
+    <string name="cd_search_emails">Search emails</string>
+    <string name="cd_account_avatar">Account avatar</string>
+    <string name="cd_email_avatar">Email sender avatar</string>
+    <string name="cd_star_email">Star email</string>
+    <string name="cd_unstar_email">Remove star from email</string>
+    <string name="cd_email_attachment">Email has attachment</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_close_dialog">Close dialog</string>
+    <string name="cd_notification_icon">Notification icon</string>
+    <string name="cd_sync_status">Sync status</string>
+    <string name="cd_selected">Selected</string>
+    
+    <!-- Accessibility Settings -->
+    <string name="accessibility_title">Accessibility</string>
+    <string name="accessibility_status">Accessibility Status</string>
+    <string name="accessibility_services_active">Accessibility Services Active</string>
+    <string name="accessibility_services_inactive">Accessibility Services Not Active</string>
+    <string name="accessibility_talkback_enabled">TalkBack Enabled</string>
+    <string name="accessibility_talkback_disabled">TalkBack Disabled</string>
+    <string name="accessibility_recommendations">Recommendations</string>
+    <string name="accessibility_apply">Apply</string>
+    <string name="accessibility_auto_configure">Auto Configure</string>
+    <string name="accessibility_reset">Reset</string>
+    
+    <string name="accessibility_visual">Visual Accessibility</string>
+    <string name="accessibility_high_contrast">High Contrast Mode</string>
+    <string name="accessibility_high_contrast_desc">Increases contrast for better visibility</string>
+    <string name="accessibility_large_text">Large Text</string>
+    <string name="accessibility_large_text_desc">Increases text size throughout the app</string>
+    <string name="accessibility_color_blind_friendly">Color Blind Friendly</string>
+    <string name="accessibility_color_blind_friendly_desc">Uses colors that are easier to distinguish</string>
+    <string name="accessibility_focus_indicator">Focus Indicator</string>
+    <string name="accessibility_focus_indicator_desc">Shows visual focus indicators for keyboard navigation</string>
+    
+    <string name="accessibility_motor">Motor Accessibility</string>
+    <string name="accessibility_large_touch_targets">Large Touch Targets</string>
+    <string name="accessibility_large_touch_targets_desc">Makes buttons and interactive elements larger</string>
+    <string name="accessibility_keyboard_navigation">Keyboard Navigation</string>
+    <string name="accessibility_keyboard_navigation_desc">Enables full keyboard navigation support</string>
+    <string name="accessibility_reduce_motion">Reduce Motion</string>
+    <string name="accessibility_reduce_motion_desc">Reduces animations and transitions</string>
+    
+    <string name="accessibility_screen_reader">Screen Reader Support</string>
+    <string name="accessibility_talkback_status">TalkBack Status</string>
+    <string name="accessibility_talkback_active">TalkBack is enabled and active</string>
+    <string name="accessibility_talkback_inactive">TalkBack is not enabled</string>
+    <string name="accessibility_talkback_enable_instruction">To enable TalkBack, go to Settings → Accessibility → TalkBack on your device.</string>
+    
+    <string name="accessibility_actions">Actions</string>
+    <string name="accessibility_reset_settings">Reset to Defaults</string>
+    <string name="accessibility_auto_settings">Apply Automatic Settings</string>
+    
+    <!-- Accessibility Announcements -->
+    <string name="accessibility_email_selected">Email selected</string>
+    <string name="accessibility_email_unselected">Email unselected</string>
+    <string name="accessibility_loading_emails">Loading emails</string>
+    <string name="accessibility_emails_loaded">Emails loaded</string>
+    <string name="accessibility_sending_email">Sending email</string>
+    <string name="accessibility_email_sent">Email sent successfully</string>
+    <string name="accessibility_sync_started">Email sync started</string>
+    <string name="accessibility_sync_completed">Email sync completed</string>
+    
+    <!-- Performance Optimization -->
+    <string name="performance_overview">Performance Overview</string>
+    <string name="performance_mode">Performance Mode</string>
+    <string name="performance_mode_performance">Performance</string>
+    <string name="performance_mode_balanced">Balanced</string>
+    <string name="performance_mode_battery_saver">Battery Saver</string>
+    <string name="performance_mode_performance_desc">Maximum performance, higher battery usage</string>
+    <string name="performance_mode_balanced_desc">Balanced performance and battery life</string>
+    <string name="performance_mode_battery_saver_desc">Maximum battery life, reduced performance</string>
+    <string name="performance_auto_optimization">Auto Optimization</string>
+    <string name="performance_auto_optimization_desc">Automatically adjust settings based on usage patterns</string>
+    <string name="performance_battery_saver_mode">Battery Saver Mode</string>
+    <string name="performance_battery_saver_desc">Optimize for maximum battery life</string>
+    <string name="performance_reduce_animations">Reduce Animations</string>
+    <string name="performance_reduce_animations_desc">Minimize animations for better performance</string>
+    <string name="performance_image_quality">Image Quality</string>
+    <string name="performance_image_quality_desc">%1$s quality images</string>
+    <string name="performance_sync_frequency">Sync Frequency</string>
+    <string name="performance_sync_frequency_aggressive">Every 5 minutes (high battery usage)</string>
+    <string name="performance_sync_frequency_normal">Every 15 minutes (balanced)</string>
+    <string name="performance_sync_frequency_conservative">Every 30 minutes (battery friendly)</string>
+    <string name="performance_sync_frequency_minimal">Every hour (maximum battery savings)</string>
+    <string name="performance_memory_optimization">Memory Optimization</string>
+    <string name="performance_memory_optimization_desc">Actively manage memory usage</string>
+    <string name="performance_startup_optimization">Startup Optimization</string>
+    <string name="performance_startup_optimization_desc">Optimize app startup time</string>
+    <string name="performance_recommendations">Recommendations</string>
+    <string name="performance_battery_optimization">Battery Optimization</string>
+    <string name="performance_battery_improvement">Estimated %1$d%% battery life improvement</string>
+    <string name="performance_auto_optimize">Auto Optimize Performance</string>
+    <string name="performance_auto_optimize_desc">This will automatically apply performance optimizations based on your device\'s current state and usage patterns. Continue?</string>
+    <string name="performance_optimize">Optimize</string>
+    <string name="performance_apply">Apply</string>
+    <string name="performance_apply_all">Apply All</string>
+    <string name="performance_export_settings">Export Settings</string>
+    <string name="performance_export_settings_desc">Save performance settings to file</string>
+    <string name="performance_import_settings">Import Settings</string>
+    <string name="performance_import_settings_desc">Load performance settings from file</string>
+    <string name="performance_reset_defaults">Reset to Defaults</string>
+    <string name="performance_reset_defaults_desc">Restore all performance settings to defaults</string>
+    <string name="performance_metric_startup">Startup</string>
+    <string name="performance_metric_memory">Memory</string>
+    <string name="performance_metric_frame_rate">Frame Rate</string>
+    <string name="performance_rating_excellent">Excellent</string>
+    <string name="performance_rating_good">Good</string>
+    <string name="performance_rating_fair">Fair</string>
+    <string name="performance_rating_poor">Poor</string>
+    <string name="performance_rating_critical">Critical</string>
+    
+    <!-- Security Settings -->
+    <string name="security_status">Security Status</string>
+    <string name="security_recommendations">Security Recommendations</string>
+    <string name="security_biometric_auth">Biometric Authentication</string>
+    <string name="security_biometric_available">Available and ready to use</string>
+    <string name="security_biometric_no_hardware">No biometric hardware available</string>
+    <string name="security_biometric_hardware_unavailable">Biometric hardware unavailable</string>
+    <string name="security_biometric_none_enrolled">No biometrics enrolled</string>
+    <string name="security_biometric_security_update">Security update required</string>
+    <string name="security_biometric_unsupported">Not supported on this device</string>
+    <string name="security_biometric_unknown">Status unknown</string>
+    <string name="security_auto_lock">Auto-Lock</string>
+    <string name="security_auto_lock_timeout">Auto-Lock Timeout</string>
+    <string name="security_auto_lock_desc">Lock app after %1$d minutes of inactivity</string>
+    <string name="security_data_encryption">Encrypt Sensitive Data</string>
+    <string name="security_data_encryption_desc">Encrypt passwords and sensitive information</string>
+    <string name="security_certificate_pinning">Certificate Pinning</string>
+    <string name="security_certificate_pinning_desc">Protect against man-in-the-middle attacks</string>
+    <string name="security_allowed_hostnames">Allowed Hostnames</string>
+    <string name="security_allowed_hostnames_desc">%1$d hostnames configured</string>
+    <string name="security_session_timeout">Session Timeout</string>
+    <string name="security_session_timeout_desc">%1$d minutes</string>
+    <string name="security_session_expired">Session Expired</string>
+    <string name="security_session_expired_desc">Your session has expired. Please authenticate to continue using the app securely.</string>
+    <string name="security_password_strength">Password Strength Checker</string>
+    <string name="security_password_strength_desc">Test password security strength</string>
+    <string name="security_test_auth">Test Authentication</string>
+    <string name="security_test_auth_desc">Test biometric or device credential authentication</string>
+    <string name="security_secure_sensitive_ops">Secure Sensitive Operations</string>
+    <string name="security_secure_sensitive_ops_desc">Require biometric authentication for sensitive actions</string>
+    <string name="security_create_session">Create New Session</string>
+    <string name="security_create_session_desc">Generate a new secure session</string>
+    <string name="security_validate_session">Validate Current Session</string>
+    <string name="security_validate_session_desc">Check if current session is valid</string>
+    <string name="security_end_session">End Current Session</string>
+    <string name="security_end_session_desc">Invalidate current session</string>
+    <string name="security_reset_settings">Reset Security Settings</string>
+    <string name="security_reset_settings_desc">This will reset all security settings to their default values. This action cannot be undone.</string>
+    <string name="security_add_hostname">Add Allowed Hostname</string>
+    <string name="security_remove_hostname">Remove hostname</string>
+    <string name="security_hostname_placeholder">example.com</string>
+    <string name="security_auth_required">Authentication Required</string>
+    <string name="security_auth_method">Choose your authentication method:</string>
+    <string name="security_use_biometric">Use Biometric</string>
+    <string name="security_use_device_credential">Use PIN/Pattern/Password</string>
+    <string name="security_auth_success">Authentication successful</string>
+    <string name="security_auth_failed">Authentication failed</string>
+    <string name="security_auth_error">Authentication error: %1$s</string>
+    <string name="security_password_test">Test Password</string>
+    <string name="security_password_strength_title">Password Strength Test</string>
+    <string name="security_password_strength_level">Strength: %1$s</string>
+    <string name="security_password_missing_requirements">Missing requirements:</string>
+    <string name="security_password_very_weak">Very Weak</string>
+    <string name="security_password_weak">Weak</string>
+    <string name="security_password_medium">Medium</string>
+    <string name="security_password_strong">Strong</string>
+    <string name="security_lock_screen_secure">Secure</string>
+    <string name="security_lock_screen_not_secure">Not Secure</string>
+    <string name="security_session_active">Active</string>
+    <string name="security_enable_biometric_auth_title">Enable Biometric Authentication</string>
+    <string name="security_enable_biometric_auth_desc">Use fingerprint or face unlock for enhanced security</string>
+    <string name="security_enable_auto_lock_title">Enable Auto-Lock</string>
+    <string name="security_enable_auto_lock_desc">Automatically lock the app when inactive to protect your data</string>
+    <string name="security_enable_certificate_pinning_title">Enable Certificate Pinning</string>
+    <string name="security_enable_certificate_pinning_desc">Protect against man-in-the-middle attacks with certificate pinning</string>
+    <string name="security_enable_data_encryption_title">Enable Data Encryption</string>
+    <string name="security_enable_data_encryption_desc">Encrypt sensitive data stored on your device</string>
+    <string name="security_setup_secure_lock_screen_title">Setup Secure Lock Screen</string>
+    <string name="security_setup_secure_lock_screen_desc">Configure a PIN, pattern, or password for your device lock screen</string>
+    
+    <!-- Security Sections -->
+    <string name="security_section_authentication">Authentication</string>
+    <string name="security_section_app_lock">App Lock</string>
+    <string name="security_section_data_protection">Data Protection</string>
+    <string name="security_section_network_security">Network Security</string>
+    <string name="security_section_session_management">Session Management</string>
+    
+    <!-- Connection Testing -->
+    <string name="connection_test">Connection Test</string>
+    <string name="account_information">Account Information</string>
+    <string name="email_address">Email Address</string>
+    <string name="provider">Provider</string>
+    <string name="authentication">Authentication</string>
+    <string name="server_configuration">Server Configuration</string>
+    <string name="connection_successful">Connection Successful</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="connection_tests">Connection Tests</string>
+    <string name="test_all_connections">Test All Connections</string>
+    <string name="test_duration">Test duration: %d ms</string>
+    <string name="manual_server_settings">Manual Server Settings</string>
+    <string name="hide_manual_settings">Hide Manual Settings</string>
+    <string name="show_manual_settings">Show Manual Settings</string>
+    <string name="test_manual_settings">Test Manual Settings</string>
+    
+    <!-- Additional Settings Strings -->
+    <string name="settings_auto_mark_as_read">Auto mark as read</string>
+    <string name="settings_auto_mark_as_read_subtitle">Automatically mark emails as read after %ds</string>
+    <string name="settings_show_preview_text">Show preview text</string>
+    <string name="settings_show_preview_text_subtitle">Display %d lines of email content</string>
+    <string name="settings_show_images">Show images</string>
+    <string name="settings_show_images_subtitle">Automatically load images in emails</string>
+    <string name="settings_show_avatars">Show avatars</string>
+    <string name="settings_show_avatars_subtitle">Display sender profile pictures</string>
+    <string name="settings_show_unread_badge">Show unread badge</string>
+    <string name="settings_show_unread_badge_subtitle">Display unread count badges</string>
+    <string name="settings_group_by_date">Group by date</string>
+    <string name="settings_group_by_date_subtitle">Group emails by date sections</string>
+    <string name="settings_compact_view">Compact view</string>
+    <string name="settings_compact_view_subtitle">Use smaller email list items</string>
+    <string name="settings_sync_notifications">Sync &amp; Notifications</string>
+    <string name="settings_sync_notifications_subtitle">Background sync and notification preferences</string>
+    <string name="settings_enable_notifications">Enable email notifications</string>
+    <string name="settings_background_sync_subtitle">Sync emails in background (%s)</string>
+    <string name="settings_security_privacy">Security &amp; Privacy</string>
+    <string name="settings_security_privacy_subtitle">Biometric authentication, encryption, and network security</string>
+    <string name="settings_biometric_auth_subtitle">Use fingerprint or face unlock</string>
+    <string name="settings_auto_lock_subtitle">Lock app after %s of inactivity</string>
+    <string name="settings_block_external_images">Block External Images</string>
+    <string name="settings_block_external_images_subtitle">Prevent automatic image loading for privacy</string>
+    <string name="settings_warn_unsafe_links">Warn About Unsafe Links</string>
+    <string name="settings_warn_unsafe_links_subtitle">Show warnings for potentially malicious links</string>
+    <string name="settings_clear_cache_subtitle">Free up storage space</string>
+    <string name="settings_optimize_storage_subtitle">Clean up old files and optimize space</string>
+    <string name="settings_export_settings_subtitle">Save your settings to a file</string>
+    <string name="settings_import_settings_subtitle">Restore settings from a file</string>
+    <string name="settings_reset_defaults">Reset to Defaults</string>
+    <string name="settings_reset_defaults_subtitle">Restore all settings to default values</string>
+    <string name="settings_accessibility_subtitle">Configure accessibility features and compliance</string>
+    <string name="settings_high_contrast_mode">High Contrast Mode</string>
+    <string name="settings_high_contrast_mode_subtitle">Increase contrast for better visibility</string>
+    <string name="settings_large_text_subtitle">Increase text size throughout the app</string>
+    <string name="settings_performance_subtitle">Optimize app performance and battery usage</string>
+    <string name="settings_auto_optimization_subtitle">Automatically optimize performance based on usage</string>
+    <string name="settings_battery_saver_mode">Battery Saver Mode</string>
+    <string name="settings_battery_saver_mode_subtitle">Optimize for maximum battery life</string>
+    <string name="settings_privacy_policy_subtitle">Read our privacy policy</string>
+    <string name="settings_terms_of_service">Terms of Service</string>
+    <string name="settings_terms_of_service_subtitle">Read our terms of service</string>
+    <string name="settings_manage_accounts_subtitle">Add, edit, or remove email accounts</string>
+    <string name="settings_server_settings_subtitle">Advanced IMAP/SMTP configuration</string>
+    <string name="settings_email_signatures_subtitle">Create and manage email signatures</string>
+    
+    <!-- Time formatting strings -->
+    <string name="time_just_now">Just now</string>
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d days ago</string>
+    
+    <!-- Account provider strings -->
+    <string name="account_exchange_subtitle">Microsoft\'s email service</string>
+    <string name="account_exchange_auth_method">OAuth2 (Required)</string>
+    <string name="account_other_imap">Other (IMAP)</string>
+    
+    <!-- UI strings -->
+    <string name="has_attachments">Has attachments</string>
+    <string name="starred">Starred</string>
+</resources>

@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Gfmail</string>
+    
+    <!-- Common -->
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="delete">삭제</string>
+    <string name="edit">편집</string>
+    <string name="create">만들기</string>
+    <string name="back">뒤로</string>
+    <string name="close">닫기</string>
+    <string name="search">검색</string>
+    <string name="loading">로딩 중…</string>
+    <string name="retry">다시 시도</string>
+    <string name="error">오류</string>
+    <string name="success">성공</string>
+    <string name="warning">경고</string>
+    <string name="confirmation">확인</string>
+    
+    <!-- Navigation -->
+    <string name="nav_inbox">받은편지함</string>
+    <string name="nav_sent">보낸편지함</string>
+    <string name="nav_drafts">임시보관함</string>
+    <string name="nav_starred">중요편지함</string>
+    <string name="nav_settings">설정</string>
+    <string name="nav_accounts">계정</string>
+    <string name="nav_compose">메일 쓰기</string>
+    
+    <!-- Email -->
+    <string name="email_from">보낸사람</string>
+    <string name="email_to">받는사람</string>
+    <string name="email_cc">참조</string>
+    <string name="email_bcc">숨은참조</string>
+    <string name="email_subject">제목</string>
+    <string name="email_content">내용</string>
+    <string name="email_attachment">첨부파일</string>
+    <string name="email_attachments">첨부파일</string>
+    <string name="email_send">전송</string>
+    <string name="email_reply">답장</string>
+    <string name="email_reply_all">전체 답장</string>
+    <string name="email_forward">전달</string>
+    <string name="email_archive">보관</string>
+    <string name="email_unread">읽지 않음으로 표시</string>
+    <string name="email_read">읽음으로 표시</string>
+    <string name="email_star">중요 표시</string>
+    <string name="email_unstar">중요 표시 해제</string>
+    <string name="email_move">이동</string>
+    <string name="email_copy">복사</string>
+    <string name="email_draft_saved">임시보관함에 저장됨</string>
+    <string name="email_sent_successfully">메일이 성공적으로 전송됨</string>
+    
+    <!-- Accounts -->
+    <string name="account_add">계정 추가</string>
+    <string name="account_email">이메일 주소</string>
+    <string name="account_password">비밀번호</string>
+    <string name="account_name">계정 이름</string>
+    <string name="account_provider">메일 제공업체</string>
+    <string name="account_gmail">Gmail</string>
+    <string name="account_exchange">Exchange</string>
+    <string name="account_manual">수동 설정</string>
+    <string name="account_imap_server">IMAP 서버</string>
+    <string name="account_smtp_server">SMTP 서버</string>
+    <string name="account_port">포트</string>
+    <string name="account_security">보안</string>
+    <string name="account_oauth_login">OAuth로 로그인</string>
+    <string name="account_test_connection">연결 테스트</string>
+    <string name="account_connection_success">연결 성공</string>
+    <string name="account_connection_failed">연결 실패</string>
+    <string name="account_limit_reached">최대 3개 계정까지 추가 가능</string>
+    <string name="account_qr_code_title">계정 QR 코드</string>
+    <string name="account_qr_code_subtitle">이 QR 코드를 공유하여 다른 기기에서 계정 설정</string>
+    
+    <!-- Search -->
+    <string name="search_hint">메일 검색…</string>
+    <string name="search_no_results">결과를 찾을 수 없음</string>
+    <string name="search_suggestions">제안</string>
+    <string name="search_recent">최근 검색</string>
+    <string name="search_clear_history">검색 기록 지우기</string>
+    <string name="search_in_folder">폴더에서 검색</string>
+    <string name="search_all_accounts">모든 계정</string>
+    
+    <!-- Folders -->
+    <string name="folder_inbox">받은편지함</string>
+    <string name="folder_sent">보낸편지함</string>
+    <string name="folder_drafts">임시보관함</string>
+    <string name="folder_trash">휴지통</string>
+    <string name="folder_spam">스팸편지함</string>
+    <string name="folder_archive">보관함</string>
+    <string name="folder_custom">사용자 폴더</string>
+    <string name="folder_create">폴더 만들기</string>
+    <string name="folder_name">폴더 이름</string>
+    <string name="folder_delete_confirm">이 폴더와 모든 메일을 삭제하시겠습니까?</string>
+    
+    <!-- Folder Name Mappings for IMAP (Korean) -->
+    <string name="folder_mapping_inbox">받은편지함</string>
+    <string name="folder_mapping_sent">보낸편지함</string>
+    <string name="folder_mapping_drafts">임시보관함</string>
+    <string name="folder_mapping_trash">휴지통</string>
+    <string name="folder_mapping_spam">스팸</string>
+    <string name="folder_mapping_archive">보관함</string>
+    <string name="folder_mapping_starred">별표</string>
+    <string name="folder_management">폴더 관리</string>
+    
+    <!-- Batch Operations -->
+    <string name="batch_select_all">모두 선택</string>
+    <string name="batch_deselect_all">모든 선택 해제</string>
+    <string name="batch_selected">%d개 선택됨</string>
+    <string name="batch_mark_read">읽음으로 표시</string>
+    <string name="batch_mark_unread">읽지 않음으로 표시</string>
+    <string name="batch_archive">보관</string>
+    <string name="batch_delete">삭제</string>
+    <string name="batch_star">중요 표시</string>
+    <string name="batch_unstar">중요 표시 해제</string>
+    <string name="batch_move_to">이동할 위치</string>
+    <string name="batch_operation_progress">%1$d / %2$d 메일 처리 중…</string>
+    <string name="batch_operation_complete">작업이 성공적으로 완료됨</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">설정</string>
+    <string name="settings_general">일반</string>
+    <string name="settings_accounts">계정</string>
+    <string name="settings_email">메일</string>
+    <string name="settings_display">화면</string>
+    <string name="settings_sync_notifications">동기화 및 알림</string>
+    <string name="settings_security_privacy">보안 및 개인정보</string>
+    <string name="settings_storage">저장공간</string>
+    <string name="settings_data_management">데이터 관리</string>
+    <string name="settings_about">앱 정보</string>
+    
+    <string name="settings_theme">테마</string>
+    <string name="settings_language">언어</string>
+    <string name="settings_manage_accounts">계정 관리</string>
+    <string name="settings_server_settings">서버 설정</string>
+    <string name="settings_email_signatures">메일 서명</string>
+    <string name="settings_sync_settings">동기화 설정</string>
+    <string name="settings_notifications">알림</string>
+    <string name="settings_background_sync">백그라운드 동기화</string>
+    <string name="settings_biometric_auth">생체 인증</string>
+    <string name="settings_auto_lock">자동 잠금</string>
+    <string name="settings_block_external_images">외부 이미지 차단</string>
+    <string name="settings_warn_unsafe_links">위험한 링크 경고</string>
+    <string name="settings_cache_size">캐시 크기</string>
+    <string name="settings_clear_cache">캐시 지우기</string>
+    <string name="settings_optimize_storage">저장공간 최적화</string>
+    <string name="settings_export_settings">설정 내보내기</string>
+    <string name="settings_import_settings">설정 가져오기</string>
+    <string name="settings_reset_defaults">기본값으로 재설정</string>
+    <string name="settings_app_version">앱 버전</string>
+    <string name="settings_privacy_policy">개인정보처리방침</string>
+    <string name="settings_terms_service">서비스 약관</string>
+    
+    <!-- Theme -->
+    <string name="theme_system">시스템</string>
+    <string name="theme_light">밝은 테마</string>
+    <string name="theme_dark">어두운 테마</string>
+    
+    <!-- Language -->
+    <string name="language_system">시스템 기본값</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese_simplified">简体中文</string>
+    <string name="language_chinese_traditional">繁體中文</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    
+    <!-- Signatures -->
+    <string name="signature_management">메일 서명</string>
+    <string name="signature_create">서명 만들기</string>
+    <string name="signature_name">서명 이름</string>
+    <string name="signature_content">서명 내용</string>
+    <string name="signature_type_text">텍스트</string>
+    <string name="signature_type_handwriting">손글씨</string>
+    <string name="signature_html_formatting">HTML 형식 사용</string>
+    <string name="signature_set_default">기본 서명으로 설정</string>
+    <string name="signature_default">기본</string>
+    <string name="signature_duplicate">복제</string>
+    <string name="signature_no_signatures">서명 없음</string>
+    <string name="signature_create_first">첫 번째 메일 서명을 만들어 메일을 개인화하세요</string>
+    <string name="signature_global">전체 서명</string>
+    <string name="signature_account_specific">계정 전용 서명</string>
+    <string name="signature_handwriting_tap">터치하여 서명 그리기</string>
+    <string name="signature_handwriting_size">손글씨 서명(%1$dx%2$d)</string>
+    <string name="signature_handwriting_edit_note">손글씨 서명은 이름만 변경할 수 있습니다. 서명 내용을 변경하려면 새 손글씨 서명을 만드세요.</string>
+    
+    <!-- Sync & Notifications -->
+    <string name="sync_title">동기화 설정</string>
+    <string name="sync_background_sync">백그라운드 동기화</string>
+    <string name="sync_sync_frequency">동기화 주기</string>
+    <string name="sync_wifi_only">WiFi만 사용</string>
+    <string name="sync_battery_optimization">배터리 최적화</string>
+    <string name="sync_quiet_hours">방해 금지 시간</string>
+    <string name="sync_notification_categories">알림 카테고리</string>
+    <string name="sync_new_email_notifications">새 메일 알림</string>
+    <string name="sync_sync_status_notifications">동기화 상태 알림</string>
+    <string name="sync_account_issue_notifications">계정 문제 알림</string>
+    <string name="sync_notification_sound">알림음</string>
+    <string name="sync_notification_vibration">알림 진동</string>
+    <string name="sync_notification_led">알림 LED</string>
+    <string name="sync_permission_required">알림 권한이 필요함</string>
+    <string name="sync_grant_permission">권한 허용</string>
+    <string name="sync_frequency_15min">15분마다</string>
+    <string name="sync_frequency_30min">30분마다</string>
+    <string name="sync_frequency_1hour">1시간마다</string>
+    <string name="sync_frequency_manual">수동만</string>
+    <string name="sync_last_sync">마지막 동기화: %s</string>
+    <string name="sync_never">없음</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_email">새 메일</string>
+    <string name="notification_new_emails">새 메일 %d개</string>
+    <string name="notification_sync_complete">동기화 완료</string>
+    <string name="notification_sync_failed">동기화 실패</string>
+    <string name="notification_account_issue">계정 문제</string>
+    <string name="notification_action_mark_read">읽음 표시</string>
+    <string name="notification_action_reply">답장</string>
+    <string name="notification_action_archive">보관</string>
+    
+    <!-- Attachments -->
+    <string name="attachment_add">첨부파일 추가</string>
+    <string name="attachment_remove">첨부파일 제거</string>
+    <string name="attachment_size_limit">첨부파일 크기 제한: 20MB</string>
+    <string name="attachment_size_exceeded">첨부파일이 20MB를 초과함</string>
+    <string name="attachment_select_file">파일 선택</string>
+    <string name="attachment_camera">사진 촬영</string>
+    <string name="attachment_gallery">갤러리에서 선택</string>
+    
+    <!-- Errors -->
+    <string name="error_network">네트워크 연결 오류</string>
+    <string name="error_authentication">인증 실패</string>
+    <string name="error_server">서버 오류</string>
+    <string name="error_invalid_email">잘못된 이메일 주소</string>
+    <string name="error_email_send_failed">메일 전송 실패</string>
+    <string name="error_attachment_failed">첨부파일 추가 실패</string>
+    <string name="error_sync_failed">동기화 실패</string>
+    <string name="error_account_add_failed">계정 추가 실패</string>
+    <string name="error_unknown">알 수 없는 오류가 발생함</string>
+    
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_back_button">뒤로 가기 버튼</string>
+    <string name="cd_compose_email">새 메일 작성</string>
+    <string name="cd_search_emails">메일 검색</string>
+    <string name="cd_account_avatar">계정 아바타</string>
+    <string name="cd_email_avatar">보낸사람 아바타</string>
+    <string name="cd_star_email">메일에 중요 표시</string>
+    <string name="cd_unstar_email">메일 중요 표시 해제</string>
+    <string name="cd_email_attachment">메일에 첨부파일 있음</string>
+    <string name="cd_menu">메뉴</string>
+    <string name="cd_more_options">더 많은 옵션</string>
+    <string name="cd_close_dialog">대화상자 닫기</string>
+    <string name="cd_notification_icon">알림 아이콘</string>
+    <string name="cd_sync_status">동기화 상태</string>
+</resources>

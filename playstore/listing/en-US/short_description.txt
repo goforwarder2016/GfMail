@@ -1,0 +1,1 @@
+Modern, secure email client with Material Design 3, multi-account support, and advanced features.

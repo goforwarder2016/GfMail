@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Gfmail</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="delete">削除</string>
+    <string name="edit">編集</string>
+    <string name="create">作成</string>
+    <string name="back">戻る</string>
+    <string name="close">閉じる</string>
+    <string name="search">検索</string>
+    <string name="loading">読み込み中…</string>
+    <string name="retry">再試行</string>
+    <string name="error">エラー</string>
+    <string name="success">成功</string>
+    <string name="warning">警告</string>
+    <string name="confirmation">確認</string>
+    
+    <!-- Navigation -->
+    <string name="nav_inbox">受信トレイ</string>
+    <string name="nav_sent">送信済み</string>
+    <string name="nav_drafts">下書き</string>
+    <string name="nav_starred">スター付き</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_accounts">アカウント</string>
+    <string name="nav_compose">メール作成</string>
+    
+    <!-- Email -->
+    <string name="email_from">差出人</string>
+    <string name="email_to">宛先</string>
+    <string name="email_cc">CC</string>
+    <string name="email_bcc">BCC</string>
+    <string name="email_subject">件名</string>
+    <string name="email_content">本文</string>
+    <string name="email_attachment">添付ファイル</string>
+    <string name="email_attachments">添付ファイル</string>
+    <string name="email_send">送信</string>
+    <string name="email_reply">返信</string>
+    <string name="email_reply_all">全員に返信</string>
+    <string name="email_forward">転送</string>
+    <string name="email_archive">アーカイブ</string>
+    <string name="email_unread">未読にする</string>
+    <string name="email_read">既読にする</string>
+    <string name="email_star">スターを付ける</string>
+    <string name="email_unstar">スターを外す</string>
+    <string name="email_move">移動</string>
+    <string name="email_copy">コピー</string>
+    <string name="email_draft_saved">下書きを保存しました</string>
+    <string name="email_sent_successfully">メールを送信しました</string>
+    
+    <!-- Accounts -->
+    <string name="account_add">アカウントを追加</string>
+    <string name="account_email">メールアドレス</string>
+    <string name="account_password">パスワード</string>
+    <string name="account_name">アカウント名</string>
+    <string name="account_provider">メールプロバイダー</string>
+    <string name="account_gmail">Gmail</string>
+    <string name="account_exchange">Exchange</string>
+    <string name="account_manual">手動設定</string>
+    <string name="account_imap_server">IMAPサーバー</string>
+    <string name="account_smtp_server">SMTPサーバー</string>
+    <string name="account_port">ポート</string>
+    <string name="account_security">セキュリティ</string>
+    <string name="account_oauth_login">OAuthでログイン</string>
+    <string name="account_test_connection">接続テスト</string>
+    <string name="account_connection_success">接続に成功しました</string>
+    <string name="account_connection_failed">接続に失敗しました</string>
+    <string name="account_limit_reached">アカウントは最大3つまでです</string>
+    <string name="account_qr_code_title">アカウントQRコード</string>
+    <string name="account_qr_code_subtitle">このQRコードを共有して、他のデバイスでアカウントを設定できます</string>
+    
+    <!-- Search -->
+    <string name="search_hint">メールを検索…</string>
+    <string name="search_no_results">結果が見つかりません</string>
+    <string name="search_suggestions">候補</string>
+    <string name="search_recent">最近の検索</string>
+    <string name="search_clear_history">検索履歴をクリア</string>
+    <string name="search_in_folder">フォルダ内を検索</string>
+    <string name="search_all_accounts">すべてのアカウント</string>
+    
+    <!-- Folders -->
+    <string name="folder_inbox">受信トレイ</string>
+    <string name="folder_sent">送信済み</string>
+    <string name="folder_drafts">下書き</string>
+    <string name="folder_trash">ゴミ箱</string>
+    <string name="folder_spam">迷惑メール</string>
+    <string name="folder_archive">アーカイブ</string>
+    <string name="folder_custom">カスタムフォルダ</string>
+    <string name="folder_create">フォルダを作成</string>
+    <string name="folder_name">フォルダ名</string>
+    <string name="folder_delete_confirm">このフォルダとすべてのメールを削除しますか？</string>
+    
+    <!-- Folder Name Mappings for IMAP (Japanese) -->
+    <string name="folder_mapping_inbox">受信トレイ</string>
+    <string name="folder_mapping_sent">送信済み</string>
+    <string name="folder_mapping_drafts">下書き</string>
+    <string name="folder_mapping_trash">ごみ箱</string>
+    <string name="folder_mapping_spam">スパム</string>
+    <string name="folder_mapping_archive">アーカイブ</string>
+    <string name="folder_mapping_starred">スター付き</string>
+    <string name="folder_management">フォルダの管理</string>
+    
+    <!-- Batch Operations -->
+    <string name="batch_select_all">すべて選択</string>
+    <string name="batch_deselect_all">すべて選択解除</string>
+    <string name="batch_selected">%d件選択中</string>
+    <string name="batch_mark_read">既読にする</string>
+    <string name="batch_mark_unread">未読にする</string>
+    <string name="batch_archive">アーカイブ</string>
+    <string name="batch_delete">削除</string>
+    <string name="batch_star">スターを付ける</string>
+    <string name="batch_unstar">スターを外す</string>
+    <string name="batch_move_to">移動先</string>
+    <string name="batch_operation_progress">%1$d / %2$d 件のメールを処理中…</string>
+    <string name="batch_operation_complete">操作が完了しました</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_general">一般</string>
+    <string name="settings_accounts">アカウント</string>
+    <string name="settings_email">メール</string>
+    <string name="settings_display">表示</string>
+    <string name="settings_sync_notifications">同期と通知</string>
+    <string name="settings_security_privacy">セキュリティとプライバシー</string>
+    <string name="settings_storage">ストレージ</string>
+    <string name="settings_data_management">データ管理</string>
+    <string name="settings_about">アプリについて</string>
+    
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_manage_accounts">アカウント管理</string>
+    <string name="settings_server_settings">サーバー設定</string>
+    <string name="settings_email_signatures">メール署名</string>
+    <string name="settings_sync_settings">同期設定</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_background_sync">バックグラウンド同期</string>
+    <string name="settings_biometric_auth">生体認証</string>
+    <string name="settings_auto_lock">自動ロック</string>
+    <string name="settings_block_external_images">外部画像をブロック</string>
+    <string name="settings_warn_unsafe_links">危険なリンクを警告</string>
+    <string name="settings_cache_size">キャッシュサイズ</string>
+    <string name="settings_clear_cache">キャッシュをクリア</string>
+    <string name="settings_optimize_storage">ストレージを最適化</string>
+    <string name="settings_export_settings">設定をエクスポート</string>
+    <string name="settings_import_settings">設定をインポート</string>
+    <string name="settings_reset_defaults">デフォルトに戻す</string>
+    <string name="settings_app_version">アプリバージョン</string>
+    <string name="settings_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_terms_service">利用規約</string>
+    
+    <!-- Theme -->
+    <string name="theme_system">システム</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    
+    <!-- Language -->
+    <string name="language_system">システムのデフォルト</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese_simplified">简体中文</string>
+    <string name="language_chinese_traditional">繁體中文</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    
+    <!-- Signatures -->
+    <string name="signature_management">メール署名</string>
+    <string name="signature_create">署名を作成</string>
+    <string name="signature_name">署名名</string>
+    <string name="signature_content">署名内容</string>
+    <string name="signature_type_text">テキスト</string>
+    <string name="signature_type_handwriting">手書き</string>
+    <string name="signature_html_formatting">HTML形式を使用</string>
+    <string name="signature_set_default">デフォルトの署名に設定</string>
+    <string name="signature_default">デフォルト</string>
+    <string name="signature_duplicate">複製</string>
+    <string name="signature_no_signatures">署名がありません</string>
+    <string name="signature_create_first">最初のメール署名を作成して、メールをパーソナライズしましょう</string>
+    <string name="signature_global">グローバル署名</string>
+    <string name="signature_account_specific">アカウント専用署名</string>
+    <string name="signature_handwriting_tap">タップして署名を描く</string>
+    <string name="signature_handwriting_size">手書き署名(%1$dx%2$d)</string>
+    <string name="signature_handwriting_edit_note">手書き署名は名前のみ変更できます。署名内容を変更するには、新しい手書き署名を作成してください。</string>
+    
+    <!-- Sync & Notifications -->
+    <string name="sync_title">同期設定</string>
+    <string name="sync_background_sync">バックグラウンド同期</string>
+    <string name="sync_sync_frequency">同期頻度</string>
+    <string name="sync_wifi_only">WiFiのみ</string>
+    <string name="sync_battery_optimization">バッテリー最適化</string>
+    <string name="sync_quiet_hours">サイレント時間</string>
+    <string name="sync_notification_categories">通知カテゴリ</string>
+    <string name="sync_new_email_notifications">新着メール通知</string>
+    <string name="sync_sync_status_notifications">同期状態通知</string>
+    <string name="sync_account_issue_notifications">アカウント問題通知</string>
+    <string name="sync_notification_sound">通知音</string>
+    <string name="sync_notification_vibration">通知バイブレーション</string>
+    <string name="sync_notification_led">通知LED</string>
+    <string name="sync_permission_required">通知権限が必要です</string>
+    <string name="sync_grant_permission">権限を許可</string>
+    <string name="sync_frequency_15min">15分ごと</string>
+    <string name="sync_frequency_30min">30分ごと</string>
+    <string name="sync_frequency_1hour">1時間ごと</string>
+    <string name="sync_frequency_manual">手動のみ</string>
+    <string name="sync_last_sync">最後の同期: %s</string>
+    <string name="sync_never">なし</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_email">新着メール</string>
+    <string name="notification_new_emails">%d件の新着メール</string>
+    <string name="notification_sync_complete">同期完了</string>
+    <string name="notification_sync_failed">同期失敗</string>
+    <string name="notification_account_issue">アカウント問題</string>
+    <string name="notification_action_mark_read">既読にする</string>
+    <string name="notification_action_reply">返信</string>
+    <string name="notification_action_archive">アーカイブ</string>
+    
+    <!-- Attachments -->
+    <string name="attachment_add">添付ファイルを追加</string>
+    <string name="attachment_remove">添付ファイルを削除</string>
+    <string name="attachment_size_limit">添付ファイルサイズ制限：20MB</string>
+    <string name="attachment_size_exceeded">添付ファイルが20MBを超えています</string>
+    <string name="attachment_select_file">ファイルを選択</string>
+    <string name="attachment_camera">写真を撮る</string>
+    <string name="attachment_gallery">ギャラリーから選択</string>
+    
+    <!-- Errors -->
+    <string name="error_network">ネットワーク接続エラー</string>
+    <string name="error_authentication">認証に失敗しました</string>
+    <string name="error_server">サーバーエラー</string>
+    <string name="error_invalid_email">無効なメールアドレス</string>
+    <string name="error_email_send_failed">メール送信に失敗しました</string>
+    <string name="error_attachment_failed">添付ファイルの追加に失敗しました</string>
+    <string name="error_sync_failed">同期に失敗しました</string>
+    <string name="error_account_add_failed">アカウントの追加に失敗しました</string>
+    <string name="error_unknown">不明なエラーが発生しました</string>
+    
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_back_button">戻るボタン</string>
+    <string name="cd_compose_email">新しいメールを作成</string>
+    <string name="cd_search_emails">メールを検索</string>
+    <string name="cd_account_avatar">アカウントアバター</string>
+    <string name="cd_email_avatar">送信者のアバター</string>
+    <string name="cd_star_email">メールにスターを付ける</string>
+    <string name="cd_unstar_email">メールからスターを外す</string>
+    <string name="cd_email_attachment">メールに添付ファイルあり</string>
+    <string name="cd_menu">メニュー</string>
+    <string name="cd_more_options">その他のオプション</string>
+    <string name="cd_close_dialog">ダイアログを閉じる</string>
+    <string name="cd_notification_icon">通知アイコン</string>
+    <string name="cd_sync_status">同期状況</string>
+</resources>

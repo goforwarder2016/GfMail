@@ -1,0 +1,143 @@
+[versions]
+# Android SDK and Build Tools
+agp = "8.10.1"
+compileSdk = "36"
+minSdk = "24"
+targetSdk = "36"
+kotlin = "2.0.21"
+
+# Compose Stack - Use BOM for alignment
+composeBom = "2023.03.00"
+
+# Architecture Components
+lifecycle = "2.9.2"
+navigation = "2.8.3"
+room = "2.6.1"
+
+# Network Stack
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+gson = "2.10.1"
+
+# Email Libraries
+javamail = "1.6.7"
+
+# Dependency Injection
+hilt = "2.44"
+hiltNavigation = "1.1.0"
+
+# Coroutines
+coroutines = "1.9.0"
+
+# Serialization
+serialization = "1.6.3"
+
+# UI/UX Libraries
+coil = "2.7.0"
+accompanist = "0.34.0"
+
+# Security & Encryption
+crypto = "1.1.0-alpha06"
+biometric = "1.1.0"
+
+# Utilities
+workManager = "2.9.1"
+datastore = "1.1.1"
+coreKtx = "1.16.0"
+
+# Testing
+junit = "4.13.2"
+mockk = "1.13.12"
+turbine = "1.1.0"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+
+# QR Code
+zxing = "4.3.0"
+
+[libraries]
+# Compose BOM
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-animation = { group = "androidx.compose.animation", name = "animation" }
+
+# Architecture Components
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.10.1" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+
+# Room Database
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# Network & Email
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+javamail = { group = "com.sun.mail", name = "android-mail", version.ref = "javamail" }
+javamail-activation = { group = "com.sun.mail", name = "android-activation", version.ref = "javamail" }
+
+# Dependency Injection
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigation" }
+
+# Coroutines
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+
+# Serialization
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
+
+# UI/UX
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
+
+# Security
+androidx-security-crypto = { group = "androidx.security", name = "security-crypto-ktx", version.ref = "crypto" }
+androidx-biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+
+# Utilities
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workManager" }
+androidx-datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+androidx-browser = { group = "androidx.browser", name = "browser", version = "1.8.0" }
+
+# QR Code
+zxing-android-embedded = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "zxing" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version = "1.5.4" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version = "1.5.4" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest", version = "1.5.4" }
+
+[bundles]
+compose = ["androidx-ui", "androidx-material3", "androidx-ui-tooling-preview", "androidx-animation"]
+lifecycle = ["androidx-lifecycle-viewmodel-compose", "androidx-lifecycle-runtime-compose"]
+room = ["androidx-room-runtime", "androidx-room-ktx"]
+network = ["retrofit", "retrofit-gson", "okhttp-logging"]
+email = ["javamail", "javamail-activation"]
+coroutines = ["coroutines-android", "coroutines-core"]
+security = ["androidx-security-crypto", "androidx-biometric"]
+testing = ["junit", "mockk", "turbine", "coroutines-test"]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+ksp = { id = "com.google.devtools.ksp", version = "2.0.21-1.0.25" }
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Email Provider Brand Colors -->
+    <!-- QQ Email -->
+    <color name="qq_email_blue">#FF12B7F5</color>
+    
+    <!-- NetEase Email (163) -->
+    <color name="netease_163_red">#FFE60012</color>
+    
+    <!-- NetEase Email (126) -->
+    <color name="netease_126_green">#FF00C851</color>
+    
+    <!-- Gmail -->
+    <color name="gmail_red">#FFEA4335</color>
+    
+    <!-- Microsoft/Outlook -->
+    <color name="microsoft_blue">#FF0078D4</color>
+    <color name="office365_orange">#FFD83B01</color>
+    
+    <!-- Generic/Other -->
+    <color name="generic_gray">#FF6C757D</color>
+</resources>

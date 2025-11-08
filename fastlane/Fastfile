@@ -1,0 +1,163 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Submit a new Beta Build to Crashlytics Beta"
+  lane :beta do
+    gradle(task: "clean assembleRelease")
+    crashlytics
+  
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    gradle(task: "clean bundleRelease")
+    upload_to_play_store
+  end
+
+  desc "Build debug APK"
+  lane :debug do
+    gradle(task: "clean assembleDebug")
+  end
+
+  desc "Build staging APK"
+  lane :staging do
+    gradle(task: "clean assembleStagingRelease")
+  end
+
+  desc "Run unit tests"
+  lane :unit_tests do
+    gradle(task: "testDebugUnitTest")
+  end
+
+  desc "Run instrumented tests"
+  lane :instrumented_tests do
+    gradle(task: "connectedDebugAndroidTest")
+  end
+
+  desc "Run all tests (unit + instrumented)"
+  lane :all_tests do
+    unit_tests
+    instrumented_tests
+  end
+
+  desc "Run static analysis"
+  lane :static_analysis do
+    gradle(task: "ktlintCheck")
+    gradle(task: "detekt")
+    gradle(task: "dependencyCheckAnalyze")
+  end
+
+  desc "Generate test coverage report"
+  lane :coverage do
+    gradle(task: "jacocoTestReport")
+  end
+
+  desc "Increment version code"
+  lane :increment_version do
+    gradle(task: "incrementVersionCode")
+  end
+
+  desc "Update version name"
+  lane :update_version do |options|
+    version_name = options[:version_name]
+    gradle(task: "updateVersionName", properties: { "newVersionName" => version_name })
+  end
+
+  desc "Full CI pipeline"
+  lane :ci do
+    static_analysis
+    unit_tests
+    debug
+    coverage
+  end
+
+  desc "Full CD pipeline for release"
+  lane :cd_release do
+    static_analysis
+    all_tests
+    increment_version
+    gradle(task: "clean bundleRelease")
+    upload_to_play_store(
+      track: 'internal',
+      release_status: 'draft'
+    )
+  end
+
+  desc "Full CD pipeline for beta"
+  lane :cd_beta do
+    static_analysis
+    all_tests
+    staging
+    upload_to_play_store(
+      track: 'beta',
+      release_status: 'completed',
+      rollout: '0.1'
+    )
+  end
+
+  desc "Performance testing"
+  lane :performance do
+    gradle(task: "performanceTest")
+    gradle(task: "analyzeBundle")
+  end
+
+  desc "Security scan"
+  lane :security_scan do
+    gradle(task: "owaspDependencyCheck")
+  end
+
+  desc "Screenshot generation"
+  lane :screenshots do
+    gradle(task: "connectedDebugAndroidTest")
+    screengrab
+  end
+
+  desc "Upload to Firebase App Distribution"
+  lane :firebase_distribution do
+    gradle(task: "assembleDebug")
+    firebase_app_distribution(
+      app: "1:123456789012:android:abcdef123456789",
+      groups: "testers",
+      release_notes: "Latest build from CI"
+    )
+  end
+
+  # Error handling
+  error do |lane, exception|
+    # Send error notification
+    slack(
+      message: "Lane #{lane} failed with exception: #{exception}",
+      success: false
+    )
+  end
+
+  # Success notification
+  after_all do |lane|
+    slack(
+      message: "Lane #{lane} completed successfully!",
+      success: true
+    )
+  end
+end

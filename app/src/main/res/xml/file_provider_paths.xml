@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cache directory for temporary files (QR codes, etc.) -->
+    <cache-path name="images" path="images/" />
+    
+    <!-- External files directory for app-specific files -->
+    <external-files-path name="external_files" path="." />
+    
+    <!-- External cache directory for temporary external files -->
+    <external-cache-path name="external_cache" path="." />
+</paths>

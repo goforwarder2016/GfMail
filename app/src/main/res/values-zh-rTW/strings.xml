@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Gfmail</string>
+    
+    <!-- Common -->
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="save">儲存</string>
+    <string name="delete">刪除</string>
+    <string name="edit">編輯</string>
+    <string name="create">建立</string>
+    <string name="back">返回</string>
+    <string name="close">關閉</string>
+    <string name="search">搜尋</string>
+    <string name="loading">載入中…</string>
+    <string name="retry">重試</string>
+    <string name="error">錯誤</string>
+    <string name="success">成功</string>
+    <string name="warning">警告</string>
+    <string name="confirmation">確認</string>
+    
+    <!-- Navigation -->
+    <string name="nav_inbox">收件匣</string>
+    <string name="nav_sent">已傳送</string>
+    <string name="nav_drafts">草稿</string>
+    <string name="nav_starred">已加星號</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_accounts">帳戶</string>
+    <string name="nav_compose">撰寫郵件</string>
+    
+    <!-- Email -->
+    <string name="email_from">寄件者</string>
+    <string name="email_to">收件者</string>
+    <string name="email_cc">副本</string>
+    <string name="email_bcc">密件副本</string>
+    <string name="email_subject">主旨</string>
+    <string name="email_content">內容</string>
+    <string name="email_attachment">附件</string>
+    <string name="email_attachments">附件</string>
+    <string name="email_send">傳送</string>
+    <string name="email_reply">回覆</string>
+    <string name="email_reply_all">全部回覆</string>
+    <string name="email_forward">轉寄</string>
+    <string name="email_archive">封存</string>
+    <string name="email_unread">標示為未讀</string>
+    <string name="email_read">標示為已讀</string>
+    <string name="email_star">加星號</string>
+    <string name="email_unstar">移除星號</string>
+    <string name="email_move">移動</string>
+    <string name="email_copy">複製</string>
+    <string name="email_draft_saved">草稿已儲存</string>
+    <string name="email_sent_successfully">郵件已成功傳送</string>
+    
+    <!-- Accounts -->
+    <string name="account_add">新增帳戶</string>
+    <string name="account_email">電子郵件地址</string>
+    <string name="account_password">密碼</string>
+    <string name="account_name">帳戶名稱</string>
+    <string name="account_provider">郵件供應商</string>
+    <string name="account_gmail">Gmail</string>
+    <string name="account_exchange">Exchange</string>
+    <string name="account_manual">手動設定</string>
+    <string name="account_imap_server">IMAP伺服器</string>
+    <string name="account_smtp_server">SMTP伺服器</string>
+    <string name="account_port">連接埠</string>
+    <string name="account_security">安全性</string>
+    <string name="account_oauth_login">使用OAuth登入</string>
+    <string name="account_test_connection">測試連線</string>
+    <string name="account_connection_success">連線成功</string>
+    <string name="account_connection_failed">連線失敗</string>
+    <string name="account_limit_reached">最多只能新增3個帳戶</string>
+    <string name="account_qr_code_title">帳戶QR碼</string>
+    <string name="account_qr_code_subtitle">分享此QR碼以在其他裝置上設定帳戶</string>
+    
+    <!-- Search -->
+    <string name="search_hint">搜尋郵件…</string>
+    <string name="search_no_results">沒有找到結果</string>
+    <string name="search_suggestions">建議</string>
+    <string name="search_recent">最近搜尋</string>
+    <string name="search_clear_history">清除搜尋記錄</string>
+    <string name="search_in_folder">在資料夾中搜尋</string>
+    <string name="search_all_accounts">所有帳戶</string>
+    
+    <!-- Folders -->
+    <string name="folder_inbox">收件匣</string>
+    <string name="folder_sent">已傳送</string>
+    <string name="folder_drafts">草稿</string>
+    <string name="folder_trash">垃圾桶</string>
+    <string name="folder_spam">垃圾郵件</string>
+    <string name="folder_archive">封存</string>
+    <string name="folder_custom">自訂資料夾</string>
+    <string name="folder_create">建立資料夾</string>
+    <string name="folder_name">資料夾名稱</string>
+    <string name="folder_delete_confirm">刪除此資料夾及其所有郵件？</string>
+    
+    <!-- Folder Name Mappings for IMAP (Chinese Traditional) -->
+    <string name="folder_mapping_inbox">收件匣</string>
+    <string name="folder_mapping_sent">已傳送</string>
+    <string name="folder_mapping_drafts">草稿</string>
+    <string name="folder_mapping_trash">已刪除</string>
+    <string name="folder_mapping_spam">垃圾郵件</string>
+    <string name="folder_mapping_archive">封存</string>
+    <string name="folder_mapping_starred">已加星標</string>
+    <string name="folder_management">管理資料夾</string>
+    
+    <!-- Batch Operations -->
+    <string name="batch_select_all">全選</string>
+    <string name="batch_deselect_all">取消全選</string>
+    <string name="batch_selected">已選擇%d個</string>
+    <string name="batch_mark_read">標示為已讀</string>
+    <string name="batch_mark_unread">標示為未讀</string>
+    <string name="batch_archive">封存</string>
+    <string name="batch_delete">刪除</string>
+    <string name="batch_star">加星號</string>
+    <string name="batch_unstar">移除星號</string>
+    <string name="batch_move_to">移動至</string>
+    <string name="batch_operation_progress">正在處理第%1$d封郵件，共%2$d封…</string>
+    <string name="batch_operation_complete">操作已成功完成</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_general">一般</string>
+    <string name="settings_accounts">帳戶</string>
+    <string name="settings_email">郵件</string>
+    <string name="settings_display">顯示</string>
+    <string name="settings_sync_notifications">同步與通知</string>
+    <string name="settings_security_privacy">安全與隱私</string>
+    <string name="settings_storage">儲存</string>
+    <string name="settings_data_management">資料管理</string>
+    <string name="settings_about">關於</string>
+    
+    <string name="settings_theme">主題</string>
+    <string name="settings_language">語言</string>
+    <string name="settings_manage_accounts">管理帳戶</string>
+    <string name="settings_server_settings">伺服器設定</string>
+    <string name="settings_email_signatures">郵件簽名</string>
+    <string name="settings_sync_settings">同步設定</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_background_sync">背景同步</string>
+    <string name="settings_biometric_auth">生物識別驗證</string>
+    <string name="settings_auto_lock">自動鎖定</string>
+    <string name="settings_block_external_images">封鎖外部圖片</string>
+    <string name="settings_warn_unsafe_links">警告不安全連結</string>
+    <string name="settings_cache_size">快取大小</string>
+    <string name="settings_clear_cache">清除快取</string>
+    <string name="settings_optimize_storage">最佳化儲存</string>
+    <string name="settings_export_settings">匯出設定</string>
+    <string name="settings_import_settings">匯入設定</string>
+    <string name="settings_reset_defaults">重置為預設值</string>
+    <string name="settings_app_version">應用程式版本</string>
+    <string name="settings_privacy_policy">隱私權政策</string>
+    <string name="settings_terms_service">服務條款</string>
+    
+    <!-- Theme -->
+    <string name="theme_system">跟隨系統</string>
+    <string name="theme_light">淺色</string>
+    <string name="theme_dark">深色</string>
+    
+    <!-- Language -->
+    <string name="language_system">系統預設</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese_simplified">简体中文</string>
+    <string name="language_chinese_traditional">繁體中文</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    
+    <!-- Signatures -->
+    <string name="signature_management">郵件簽名</string>
+    <string name="signature_create">建立簽名</string>
+    <string name="signature_name">簽名名稱</string>
+    <string name="signature_content">簽名內容</string>
+    <string name="signature_type_text">文字</string>
+    <string name="signature_type_handwriting">手寫</string>
+    <string name="signature_html_formatting">使用HTML格式</string>
+    <string name="signature_set_default">設為預設簽名</string>
+    <string name="signature_default">預設</string>
+    <string name="signature_duplicate">複製</string>
+    <string name="signature_no_signatures">無簽名</string>
+    <string name="signature_create_first">建立您的第一個郵件簽名來個人化您的郵件</string>
+    <string name="signature_global">全域簽名</string>
+    <string name="signature_account_specific">帳戶專用簽名</string>
+    <string name="signature_handwriting_tap">輕觸繪製簽名</string>
+    <string name="signature_handwriting_size">手寫簽名(%1$dx%2$d)</string>
+    <string name="signature_handwriting_edit_note">手寫簽名只能修改名稱。要修改簽名內容，請建立新的手寫簽名。</string>
+    
+    <!-- Sync & Notifications -->
+    <string name="sync_title">同步設定</string>
+    <string name="sync_background_sync">背景同步</string>
+    <string name="sync_sync_frequency">同步頻率</string>
+    <string name="sync_wifi_only">僅WiFi</string>
+    <string name="sync_battery_optimization">電池最佳化</string>
+    <string name="sync_quiet_hours">勿擾時段</string>
+    <string name="sync_notification_categories">通知類別</string>
+    <string name="sync_new_email_notifications">新郵件通知</string>
+    <string name="sync_sync_status_notifications">同步狀態通知</string>
+    <string name="sync_account_issue_notifications">帳戶問題通知</string>
+    <string name="sync_notification_sound">通知鈴聲</string>
+    <string name="sync_notification_vibration">通知震動</string>
+    <string name="sync_notification_led">通知指示燈</string>
+    <string name="sync_permission_required">需要通知權限</string>
+    <string name="sync_grant_permission">授予權限</string>
+    <string name="sync_frequency_15min">每15分鐘</string>
+    <string name="sync_frequency_30min">每30分鐘</string>
+    <string name="sync_frequency_1hour">每小時</string>
+    <string name="sync_frequency_manual">僅手動</string>
+    <string name="sync_last_sync">上次同步：%s</string>
+    <string name="sync_never">從未</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_email">新郵件</string>
+    <string name="notification_new_emails">%d封新郵件</string>
+    <string name="notification_sync_complete">同步完成</string>
+    <string name="notification_sync_failed">同步失敗</string>
+    <string name="notification_account_issue">帳戶問題</string>
+    <string name="notification_action_mark_read">標示已讀</string>
+    <string name="notification_action_reply">回覆</string>
+    <string name="notification_action_archive">封存</string>
+    
+    <!-- Attachments -->
+    <string name="attachment_add">新增附件</string>
+    <string name="attachment_remove">移除附件</string>
+    <string name="attachment_size_limit">附件大小限制：20MB</string>
+    <string name="attachment_size_exceeded">附件超過20MB限制</string>
+    <string name="attachment_select_file">選擇檔案</string>
+    <string name="attachment_camera">拍照</string>
+    <string name="attachment_gallery">從圖庫選擇</string>
+    
+    <!-- Errors -->
+    <string name="error_network">網路連線錯誤</string>
+    <string name="error_authentication">驗證失敗</string>
+    <string name="error_server">伺服器錯誤</string>
+    <string name="error_invalid_email">無效的電子郵件地址</string>
+    <string name="error_email_send_failed">郵件傳送失敗</string>
+    <string name="error_attachment_failed">附件新增失敗</string>
+    <string name="error_sync_failed">同步失敗</string>
+    <string name="error_account_add_failed">新增帳戶失敗</string>
+    <string name="error_unknown">發生未知錯誤</string>
+    
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_back_button">返回按鈕</string>
+    <string name="cd_compose_email">撰寫新郵件</string>
+    <string name="cd_search_emails">搜尋郵件</string>
+    <string name="cd_account_avatar">帳戶大頭照</string>
+    <string name="cd_email_avatar">寄件者大頭照</string>
+    <string name="cd_star_email">為郵件加星號</string>
+    <string name="cd_unstar_email">移除郵件星號</string>
+    <string name="cd_email_attachment">郵件有附件</string>
+    <string name="cd_menu">選單</string>
+    <string name="cd_more_options">更多選項</string>
+    <string name="cd_close_dialog">關閉對話框</string>
+    <string name="cd_notification_icon">通知圖示</string>
+    <string name="cd_sync_status">同步狀態</string>
+</resources>

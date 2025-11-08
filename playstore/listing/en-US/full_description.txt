@@ -1,0 +1,87 @@
+🎉 Experience the Future of Email with Gfmail
+
+Gfmail is a modern, feature-rich email client designed for Android users who value security, performance, and beautiful design. Built with the latest Material Design 3 principles, Gfmail offers an intuitive and accessible email experience that adapts to your needs.
+
+✨ KEY FEATURES
+
+📧 Multi-Account Support
+• Seamlessly manage multiple email accounts (Gmail, Outlook, IMAP/SMTP)
+• Quick account switching with visual indicators
+• Independent sync settings for each account
+
+🎨 Beautiful Material Design 3 Interface
+• Dynamic color theming that adapts to your wallpaper
+• Smooth 60fps animations and transitions
+• Dark mode support with system integration
+• Responsive design for tablets and foldables
+
+🔍 Advanced Search & Organization
+• Intelligent search with suggestions and filters
+• Smart folder management and email categorization
+• Batch operations for efficient email management
+• Quick actions and swipe gestures
+
+🔐 Enterprise-Grade Security
+• Biometric authentication (fingerprint, face unlock)
+• End-to-end encryption for sensitive data
+• Certificate pinning for secure connections
+• Local data storage - no cloud dependency
+• Security recommendations and monitoring
+
+⚡ Performance Optimized
+• Lightning-fast startup (<2 seconds)
+• Smooth scrolling and navigation
+• Battery optimization with intelligent sync
+• Memory efficient architecture
+• Performance monitoring and auto-optimization
+
+🌍 Accessibility & Internationalization
+• Full TalkBack and screen reader support
+• WCAG 2.1 AA compliant design
+• Support for large fonts and high contrast
+• Multi-language support (English, 中文, 日本語, 한국어)
+• Voice navigation and accessibility shortcuts
+
+🔄 Smart Background Sync
+• Real-time IMAP IDLE support
+• Intelligent notification management
+• Quiet hours and sync scheduling
+• WiFi-only sync options
+• Low battery mode adaptation
+
+🛠️ Advanced Features
+• Rich text email composition
+• Large attachment support (up to 20MB/100MB Pro)
+• Email signatures with handwriting support
+• Advanced filters and rules
+• Export/import settings
+• Comprehensive backup and restore
+
+🏆 PRO FEATURES
+• Support for up to 10 email accounts
+• Large attachment support (100MB)
+• Priority customer support
+• Advanced performance optimizations
+• Beta feature access
+
+📱 SYSTEM REQUIREMENTS
+• Android 7.0 (API level 24) or higher
+• 2GB RAM recommended
+• 100MB free storage space
+
+🔒 PRIVACY COMMITMENT
+• No data collection or tracking
+• Local-only data storage
+• Open source security audits
+• GDPR compliant design
+• Complete user control over data
+
+📞 SUPPORT
+Need help? Contact our support team at support@gfmail.com
+Visit our website: https://gfmail.com
+Documentation: https://docs.gfmail.com
+
+🌟 Why Choose Gfmail?
+Unlike other email clients that compromise on privacy or performance, Gfmail is built from the ground up with security, accessibility, and user experience as core principles. Our commitment to open source development and user privacy makes Gfmail the trusted choice for professionals, students, and privacy-conscious users worldwide.
+
+Download Gfmail today and transform your email experience!
